@@ -7,6 +7,8 @@ Request should have name of the tasks, priority and due date.
 
 ![image](/img/aws-lambda-arch.png)
 
+## Implementation
+
 1. Dynamo DB
     
 2. Lambda function
