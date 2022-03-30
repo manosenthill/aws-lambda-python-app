@@ -13,4 +13,17 @@ Request should have name of the tasks, priority and due date.
     
 2. Lambda function
 
+    2.1 Code
+    
+    2.2 Test
+    
+    Below are sample input request to test. 
+    ~~~
+    {
+      "id": "1",
+      "name": "1st event",
+      "status": "open"
+    }
+    ~~~
+
 3. API Gateway
