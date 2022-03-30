@@ -16,10 +16,11 @@ Create Rest API which stores data into Dynamo db.
 2. Lambda function
 
     2.1 Code
-    
-    - reads the environment variable to get table name "tasks".
+     
     - uses boto3 python library which connects to dynamo db.
     - stores the input data to dynamo db.
+    
+    p.s:  we can read the table name dynamically from environment variable thru os library.
     
     2.2 Test
     
